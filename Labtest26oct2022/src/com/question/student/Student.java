@@ -1,11 +1,20 @@
+/*
+ * program: student package
+ * @author: Aarti
+ * @Date: 26 oct 2022
+ */
+//declaring package
 package com.question.student;
 
+//declaring a class
 public class Student {
 	
+	//instance variables
 		String sname;
 		int Totalclasses;
 		int attendedclass;
 		
+		//method to get the details
 		public void getDetails(String name,int Total,int attendence)
 		{
 			sname = name ;
@@ -13,6 +22,8 @@ public class Student {
 			attendedclass = attendence;
 			
 		}
+		
+		//method for printing details
 		public void printDetails()
 		 {
 			 System.out.println("Student name:"+sname);
@@ -21,8 +32,10 @@ public class Student {
 			 
 			
 		 }
+		
+		 
 
-	}
+	}//end of class
 
 
 
